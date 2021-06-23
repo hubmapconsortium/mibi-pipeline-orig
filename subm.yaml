@@ -1,0 +1,10 @@
+#example of submission file
+# segmentation cellpose or deepcell
+segmentation_method: "cellpose"
+gpus: "0"
+data_dir:
+  class: Directory
+  path: "/.../Serial_Section/no_background"
+meta_path:
+  class: File
+  path: "some/path/meta.yaml"

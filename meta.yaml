@@ -1,0 +1,12 @@
+image_size:
+  y: 1024
+  x: 1024
+
+pixel_resolution_nm:
+  y: 300
+  x: 300
+
+num_channels: 28
+segmentation_channels:
+  nucleus: HH3
+  cell: ECadherin
