@@ -4,7 +4,7 @@ label: Collect dataset info
 
 hints:
   DockerRequirement:
-    dockerPull: vaskivskyi/mibi:latest
+    dockerPull: hubmap/mibi:latest
     dockerOutputDirectory: "/output"
 
 baseCommand: ["python", "/opt/collect_dataset_info.py"]

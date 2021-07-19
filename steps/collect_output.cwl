@@ -4,7 +4,7 @@ label: Collect segmentation masks and images for the final output
 
 hints:
   DockerRequirement:
-    dockerPull: vaskivskyi/mibi:latest
+    dockerPull: hubmap/mibi:latest
     dockerOutputDirectory: "/output"
 
 baseCommand: ["python", "/opt/collect_output.py"]

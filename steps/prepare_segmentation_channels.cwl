@@ -4,7 +4,7 @@ label: Prepare images for segmentation
 
 hints:
   DockerRequirement:
-    dockerPull: vaskivskyi/mibi:latest
+    dockerPull: hubmap/mibi:latest
     dockerOutputDirectory: "/output"
 
 baseCommand: ["python", "/opt/prepare_segmentation_channels.py"]
