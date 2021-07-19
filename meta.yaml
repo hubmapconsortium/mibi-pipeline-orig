@@ -9,4 +9,4 @@ pixel_resolution_nm:
 num_channels: 28
 segmentation_channels:
   nucleus: HH3
-  cell: ECadherin
+  cell: PanKeratin
