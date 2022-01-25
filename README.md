@@ -36,16 +36,10 @@ Serial_Section
 ```
 pipeline_output/
 ├── expr
-│   ├── region_001
-│   │    └── reg001_expr.ome.tiff
-│   │    
-│   └── region_00N
-│        └── reg00N_expr.ome.tiff
+│   ├── reg001_expr.ome.tiff
+│   └── reg00N_expr.ome.tiff
 │       
 └── mask
-    ├── region_001
-    │    └── reg001_mask.ome.tiff
-    │    
-    └── region_00N
-         └── reg00N_mask.ome.tiff
+    ├── reg001_mask.ome.tiff
+    └── reg00N_mask.ome.tiff
 ```
