@@ -1,6 +1,7 @@
-#example of submission file
-# segmentation cellpose or deepcell
-segmentation_method: "cellpose"
+# example of a submission file
+# segmentation: cellpose or deepcell
+# gpus: string list of ids
+segmentation_method: "deepcell"
 gpus: "0"
 data_dir:
   class: Directory
